@@ -1,0 +1,55 @@
+<html>
+<head><title>Customer Feedback</title>
+<style type="text/css">
+*{font-family: Verdana;}
+</style>
+</head>
+<body bgcolor=black text=#EAEAEA link=yellow vlink=orange>
+<h3>Customers say the darnedest things in response to my advice.  Fortunately, they're usually pretty complimentary!</h3>
+
+Most of the feedback that people bother to leave is just a few words...
+<br>
+<center><a href=wordcloud_large.jpg><img src=wordcloud.jpg></a></center>
+<br>
+
+Of the people who bothered to leave complete sentences behind, these are some of my favorites:
+<ul>
+<li>...quick, friendly, and informative. I can't think of a better response.
+<li>Chris answered my question quickly and succinctly. I moved towards a solution immediately after hearing his response. Thanks!
+<li>This was a great walk-thru! You surprise and delight. Thanks again!
+<li>I appreciate the sincerity and helpfulness presented even though the problem is challenging.
+<li>I'm always VERY impressed by the timeliness and usefulness of support responses by Chris.
+<li>BEST CUSTOMER SERVICE. EVER. END OF FUCKING STORY. B-E-S-T.
+<li>The response was exceptional in timeliness, attitude and content, as per usual!
+<li>Chris gave great *full* answers and an actionable path forward. He reflected our concerns, addressed them technically, explicitly noted constraints and work arounds. Good stuff.
+<li>Love the quick response and comprehensive help. I stay with these kinds of services because they help my business succeed.
+<li>I appreciate the speed and quality of the support I received. Thanks, Chris!
+<li>outstanding, and i hate replying to these things but you guys rock.
+<li>Chris was a great resource. He provided me with exactly what I needed in a timely manner. As my first experience with New Relic tech support, count me impressed.
+<li>Chris provided great customer support. Went above and beyond, installed a new operating system to fix the problem I was having. Did this all within 24 hours of my initial question.
+<li>Response was fast. Chris was really knowledgeable and helpful. And when I had a follow-up question, he was right on top of it as well. I was impressed with the service speed and quality. Thanks for taking great care of us on this issue.
+<li>Not only did the techs fix the problem quickly, they gave me a headsup about the TTL settings that while I'm aware of did not think to change. They went above and beyond.. A+!
+<li>Very detailed help and professional. Hope I always get someone as helpful as this.
+<li>Incredibly satisfied. Chris provided a lot more help than I was expecting.
+<!-- netlify below --->
+<li>Thanks much, especially for help from Chris McCraw on New Years Day and after. I know that someone gets "stuck" with support on such occasions in companies like Netlify. It is reassuring when the first, second, third, ... emails landed in my inbox from Chris. </li>
+<li>Chris McCraw was super helpful with troubleshooting a difficult issue to isolate. He stayed in contact and kept the momentum going when things slowed down.</li>
+<li>Chris provided all the technical help needed to resolve the issue.
+<li>Chris Mccraw is the best in the world of support.
+<li>Chris Mccraw was very responsive and understanding, even when it took me a while to respond to his questions.  Overall, his guidance was clear and effective and it looks like our setup is in a good place!
+<li>Chris was quick to respond and quite knowledgeable. He helped me with a few key recommendations to move forward
+<li>chris mccraw did a good job.  he anticipated my need by sending me the document i needed, without knowing that i don't have access to your dashboard
+<li>Chris answered my question clearly and to the point.
+<li>Chris McCraw was excellent and followed up with any questions I had in a really friendly manner!
+<li>Chris Mccraw help on this was much appreciated. I would give him a 10 if this feedback was rating based.
+<li>Chris McCraw was excellent and followed up with any questions I had in a really friendly manner!
+<li>Customer support is one of Netlify's great strength. I have never felt "left hanging", especially Chris Mccraw takes the extra time to clarify and point me in the right direction.
+<li>You assistance with Chris McCraw was very good, excellent, thanks.
+<li>Thanks for your kind support. It was really helpful.
+<li>The netlify was support was super good. I worked as a tester for a while, so I can write a bug report, but lot's of companys don't know how to respond to that. Chris McCraw responded quickly, nicely and and exactly the way I would wish for. Big thumbs up from me! :)
+<li>I'm not just satisfied, I'm ecstatic.  Every single time - without fail - I get a response within hours, and - unlike most SaaS subscriptions I have to 'privilege' of managing for my company - the responses actually help me.  No beating around the bush by first level support who don't know what they're talking about and don't really want to escalate my problem. No one-liner responses from people who don't seem to know what they're talking about and worse: that don't even read my issue. Just simple, to the point solutions that get me unstuck and let's me focus productively on our own codebase.  Please don't ever change, please don't ever outsource, because your support engineers are a breath of fresh air in a world of SaaS where the buck stops as soon as your subscription is paid.
+<li>Chris Mccraw came to help when I was extremely frustrated with the issue I was facing. It was time sensitive, and I did not know how to resolve it. I am on my to resolving it and know what was the reason of all the mess that happened. Chris really helped out with screen shots and I was very grateful for his help via email and his prompt response and overall communication. TWO THUMBS UP.
+<li>Chris McCraw was able to point me in the right direction
+<li>Great quality of support! Chris responsed promptly and gave amazing answer to our need. Thanks heaps.
+</ul>
+</body></html>

@@ -1,0 +1,28 @@
+<html>
+<head>
+<title>Support Engineering 101</title>
+<style type="text/css">
+*{font-family: Verdana;}
+</style>
+</head>
+<body bgcolor=black text=#EAEAEA link=yellow vlink=orange>
+<h1>Support Driven Expo presentation:  Support Engineering 101</h1>
+<h2>Notes</h2>
+This workshop was presented at the <a href=https://www.supportdriven.com/expo/>Support Driven Expo 2018 in Portland, OR</a><p>
+<a href=https://paper.dropbox.com/doc/Support-Engineering-101-tNBUMsBMBFHrjv0DrtTpP>My speaker notes</a> are a better guide to the topic than my slides.
+<h2>Slides </h2>
+<a href=se101.key>Keynote Presentation</a>
+<h2>Links</h2>
+<ul>
+	<li><a href="https://medium.com/@fool/teching-up-9b39b6dc6e4e">a fool's Suggestions on How to Get Into Tech</a>
+	<li><a href="https://www.slideshare.net/SupportDriven/how-to-troubleshoot-anything-and-generally-be-more-awesome-at-life-matt-dale">Matt Dale's Troubleshooting Guide</a>
+	<li><a href="https://www.goodreads.com/book/show/17924011-the-effortless-experience">The Effortless Experience (on goodreads.com)</a>
+	<li><a href="https://medium.freecodecamp.org/what-programming-language-should-i-learn-first-%CA%87d%C4%B1%C9%B9%C9%94s%C9%90%CA%8C%C9%90%C9%BE-%C9%B9%C7%9D%CA%8Dsu%C9%90-19a33b0a467d">Choosing a first programming language from FreeCodeCamp</a>
+	<li><a href="http://fool.supportfolio.com/bug_escalation.html">a fool's Guide to Effective Bug Escalation</a>
+	<li><a href="http://troubleshooters.com/tuni.htm">good general purpose in-depth troubleshooting tutorial</a>
+</ul>
+<h2>Contact</h2>
+Questions, Comments, Kudos?  Want me to present this talk at your event or business?  Want to work with me?  <a href=mailto:gently@gmail.com>Get in touch!</a>.
+<p>
+This document was last modified on <!--#echo var="LAST_MODIFIED" -->.
+</html>

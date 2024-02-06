@@ -1,0 +1,103 @@
+<html>
+<head><title>Effective, cooperative bug escalation</title>
+<style type="text/css">
+*{font-family: Verdana;}
+</style>
+</head>
+<body bgcolor=black text=#EAEAEA link=yellow vlink=orange>
+<h1>Effective, cooperative bug escalation</h1>
+
+<h2>Overview</h2>
+Development and support are aligned on the same mission:  deliver a product that customers love using enough that they'll not only pay us for it, but become engaged evangelizers for it.
+<p>
+While the developers are busy writing code, support should offer input on issues affecting customers in an actionable format.  This document is an attempt at responding to the reality that, since we are always adding features to the product, there are likely to continue to be more bugs than will be fixed.
+<h2>Rationale and Current Practice</h2>
+Fixing every bug, while it has some appeal to support, is not practical and is not an explicit goal of the development org.  In light of this, support can offer to help development in picking up the most effective bugs they have bandwidth for.  A neat side effect of this project will be that we'll have a better tool to show how many bugs go unfixed, which could enable a better discussion about prioritizing sustaining work versus feature development. 
+<p>
+Once open bugs top a few hundred, triaging incoming bugs becomes a time consuming task with many gotchas, for instance:
+<ul><li>institutional memory is very relevant to track regressions and related issues
+<li>mentorship towards effective filing by new filers (whether within the support org or sales or even new engineers) becomes a very good time spend.
+</ul>
+<p>
+Currently, support and development spend a non-trivial amount of time in synchronous fix/wontfix bug decisions, yet the developers are left without a single "most important bugs" view that is usefully pre-sorted without additional human input (dev: got time?  pick the top one from this list!)
+<p>
+<h2>Goals</h2>
+This project has the following explicit goals:
+
+<ol><li>Improving the process for identifying how important support thinks bugs are (The current system is manual and ignores customer size and # of reporters)
+<li>The process must be functional for both engineering and all of customer success - both support's "typical" priority bugs, major issues, as well as sales escalations.
+<li>Support must be able to commit to completing our role in this process as scheduled (e.g. daily/weekly/monthly)
+<li>This process must be amenable to change, so to start with we aim small yet flexible, and go for "good enough" vs "perfect"
+</ol>
+<h2>The Details</h2>
+Some parameters for the process:
+<ul>
+<li>Start with a refactor of how we work with a single team and a single BTS, but leave potential to scale to most other engineering teams and bug tracking systems
+<li>Ranking systems must have obvious, actionable output: single ordered list of top bugs.
+<li>Ranking forumla(e) must be tunable to match stakeholder needs, for instance:
+<ol>
+    <li>Changing weight of individual components, such as 'developer effort assessment' (aka story points)
+	<li>Changing the weight of a specific customer request (eg, "this is worth a million dollars, even though this customer is worth $0 right now.")
+    <li>Taking into account the customer confidence impact of vocal public complaints on twitter and other public fora
+</ol>
+<li>List provided should be in "actionable" order - work from the top down. We specifically do not specify a <i>"the top X issues should be fixed by Y date"</i> type cut-off, so that teams can use this info in the fashion most useful for their workflow.
+<ul>
+	<li>Any bug that will take longer than a week to address meaningfully needs a project and therefore won't just be "picked up" off a list like this, so we must factor in some release valve like: "development effort &gt; X sends issue to a different process"
+	<li>Development teams should be able to put additional filters on the list to pull whatever signal they want out of the noise, eg:
+<ul>
+		<li>a filter with just projects &lt; 1/2 day of work
+		<li>only bugs from customer X
+		<li>only bugs from very expensive customers
+		<li>only bugs from free customers (maybe for an intern)
+		<li>only bugs affecting component X
+</ul>
+</ul>
+    <li>Process should be doable with a minimum of "group" time - perhaps a series of gateways.  We are not specifying any process changes but we might suggest some that look something like this, if the ranking system is proven to work:
+	<ol>
+        <li>triage - de-duplication, verified quality of filing per our best practices 
+		<li>support ranking
+        <li>support rank verification from second TSE or manager
+        <li>product management thumbs up or down
+        <li>engineering manager acceptance
+        <li>engineer story point addition
+	</ol>
+    <li>Must support WONTFIX, BACKLOG, UNSTARTED, REJECTED/REOPENED equivalent statuses in workflow
+    <li>Must include a customer notification follow-up step owned by support
+    <li>Must maintain or improve the current customer experience.
+	<ul>
+		<li>The improvement we're looking for is more like "don't leave 'em hanging on a bug we hope to fix" than like "we'll fix more bugs" or "we'll provide feedback to every customer every time".
+        <li>We will not specify changes to the existing processes around people we do notify, or the messages we send in tickets.  These can be added independent of this process, of course.
+	</ul>
+</ul>
+<h2>Immediate proposals</h2>
+<ul>
+<li>Create a test dashboard to see how well our proposed scoring matches up with some bugs rated by this process
+<li>Perform a rough audit to see how often we get tweets and forum posts about bugs
+<li>Mentorship vs bad filing should start immediately - no need to wait for the rest of these process changes to lift off. Some ideas to improve filing include
+	<ol>
+	<li> Marking "required" BTS fields with asterisks
+	<li> Improved best filing practices doc
+	<li> Occasional refreshers on bug filing for longer-term employees
+	<li> Paying more attention to giving feedback to folks the first time they file a suboptimal bug
+	</ol>
+</ul>
+<h2>Eventual Proposals</h2>
+
+<ul>
+<li> Automate production of all objective factors for prioritization formula
+<li> Automate import of the above factors & automate calculation so list is always up-to-date (likely a daily update would be sufficient)
+<li> Develop process for "untagging" bugs that have been misreported to reduce false positives
+<li> Find a way to incorporate tweets and forum posts into scoring system (perhaps file a silent ticket for every tweet/forum post about a bug?)
+<li> Once concept is proven with test team, get buy-in from the rest of the development org.
+</ul>
+
+<h2>First steps</h2>
+<ul>
+<li>work up a project plan to achieve management buy-in (support+dev)
+<li>review and solidify our 'Support Ranking' formula 
+<li>work with Tools Team on export of the needed data (customer value + # of reports of each bug)
+<li>test out formula with development (apply the new scoring system to some real bugs and see how things shake out)
+<li>create a dashboard for development tester team
+<li>come up with a more sustainable/widely-agreed-upon review/prioritization cycle.
+</ul>
+</body></html>

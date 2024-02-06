@@ -1,0 +1,33 @@
+*{
+  font-family: Verdana; 
+  max-width: 1000px;
+}
+h1 {
+  width: 100%;
+  text-align: center;
+}
+	
+h2 {
+  margin-left: 80px;
+  margin-right: 40px;
+}
+h3 {
+  margin-left: 80px;
+  margin-right: 40px;
+}
+h4 {
+  margin-left: 80px;
+  margin-right: 40px;
+}
+p {
+  margin-left: 120px;
+  margin-right: 40px;
+}
+ul {
+  margin-left: 100px;
+  margin-right: 40px;
+}
+span.callout-box {
+  display: block;
+  background-color: gray;
+}

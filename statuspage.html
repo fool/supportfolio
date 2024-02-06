@@ -1,0 +1,64 @@
+<html><head><title>How I learned to stop worrying and love the status page</title></head>
+<style type="text/css">
+*{font-family: Verdana;}
+</style>
+</head>
+<body bgcolor=black text=#EAEAEA link=yellow vlink=orange>
+<h1>A tale of transparency and customer understanding</h1>
+ 
+In a previous life, I was one of the first engineers on the Tech Support team at <a href=http://newrelic.com>New Relic</a> as we grew from a small to a large company, and I learned a lot in the process that I'm considering in light of the somewhat similar journey my team is on now at my new, smaller company.  Today I want to tell the story of how New Relic built a good messaging platform for communicating service issues to our customers - a tale of customers' expectations of SaaS services, and downtimes.   All recommendations below are just my opinion, but are based on direct experience around rolling out a status page and associated processes at New Relic, with results visible here:
+<p>
+ 
+Example 1: <a href=http://status.newrelic.com>http://status.newrelic.com</a>
+<p> 
+<b>The problem</b>:  Customers expect the service to be up, and if it isn't, they expect us to be working on it - hopefully in some way they can discover with minimal effort.  There are a lot of ways to attempt to solve this problem which customers find to be of varying acceptability, but one industry standard is a web page displaying a status report for the service.
+ 
+<h2>A minimal set of features for a successful status page</h2>
+<ul><li>hosted outside of our network, so, hopefully not impacted by anything that might be impacting our service.
+<li>updated consistently (in case of any long-lasting service degradation) and in near real time whenever the situation materially changes
+<li>explains the impact of the situation
+<li>embraces and dovetails with auxiliary local best practices
+</ul> 
+<p>
+I want to dive in to how we did it there, not with a goal of doing it the same way, but so the lessons learned can be considered as we design a solution ideal for our own needs here.
+ 
+ 
+<h3>Externally hosted</h3>
+ 
+This is a requirement because the customer notification must work even when things outside of our control are wrong - what if AWS is down?  In-app messaging won't help if an entire data center is offline or experiencing problems.  Do customers have someplace to check in, in case our ticketing system is suffering extended downtime?  Both of these situations are rare but have both occurred, and we need a solution that is separate from any other single points of failure.
+ 
+<h3>Updated consistently</h3>
+ 
+Once we convince customers that this will be the source of truth for Jama's hosted status, we need to be sure we live up to that promise.  The hope is that it becomes so trustworthy that a hosted customer experiencing what they think is an outage first checks the status page, and if nothing is listed, then checks their network connection before assuming it is a problem on our end.
+ 
+<h3>Clear messaging</h3>
+ 
+As the "face of an outage", it's key to put our best foot forward, so keeping the following things in mind may be of use:
+<p>
+<ul><li>each incident listed speaks at the same level: think "system slowdown" versus "database indexing issue".  We found it worked best to decide how technical we want to be beforehand, and stick with that decision, unless there is a compelling reason to change.
+<li>consistent use of the same vocabulary (standard vocabulary can be pre-written for common types of issues and agreed upon by marketing/legal/support for effectiveness, appropriateness, and CYA-ness).  "I know last week's Single-Sign On issue didn't affect me, so I can guess that this one doesn't either."
+<li>and doesn't overstate things: "system is down" versus "some customers will experience a degradation".  This would be particularly relevant when a customer-facing degradation is limited to one server or region in our cloud.  Ideally, these broadcasts are obvious about what the impact is: "slow-down" vs "downtime" vs "not sending emails but will catch up later" to whom (all customers?  Australia-only?)
+</ul> 
+ 
+<h2>Lessons learned</h2>
+ 
+All of the above are pretty much best practices and industry standard (or should be...  see example 2: How not to do it:  <a href=http://twitter.com/honest_update>Honest Status Page on twitter</a>).  Additionally, there are some other things we figured out along the way at New Relic that it would be awesome to address during spin-up rather than in a reactionary way.
+ 
+<ol><li><b>Be prepared for reality</b>.  We may not discover an outage in time to report it while it is happening.  Customer feedback may not be glowing.
+	<ol><li>DevOps will need a plan about when it is and isn't appropriate/useful to post a status
+	<li>Support will need a good script to work from to explain why we do things how we do for customers who ask questions about our use of the status page.  For example, at New Relic, we quickly realized that it wasn't most useful to post a status page update when one customer out of thousands were affected - it scared the thousands, and the one rarely noticed.  However, when that one wrote in asking - we needed to have a good reason why we hadn't updated the page because as far as they were concerned, there was an outage.  We also made the choice not to post "posthumous" status updates about issues that had resolved before we posted.  I don't know if this was the right choice, but we needed something useful to say when we were called on the carpet - something that wasn't "gee, we didn't actually notice while we were down, so we didn't say anything?"
+	</ol>
+<li><b>Keeping customers sufficiently- but not over- informed can reduce concern</b> (and # of tickets) about issues which we are working on a fix for.  A consistently transparent/technical voice in the language of the updates keeps customer tickets about status updates to a minimum.
+<li>Auxiliary messaging in app can be useful to clarify impact / and lead to more-actionable customer support tickets.  For example, imagine the maintenance banner: "We had a slowdown over the last 12 hours, but everything should be caught up now.  Please submit a ticket if things don't look better for you." in helping us gauge whether our fix was effective.
+</ol>
+ 
+<h2>Potential results</h2>
+ 
+We won't get it completely right the first time, but we can follow some of the most useful tenets of the agile design philosophy:  try something that seems to address the problem simply, and iterate based on how that goes.  A good implementation can still improve over time as we see how customers react and how we grow.  If we're having consistent downtimes, a status page won't fix that, but we can at least get better at heading off another 20 customers writing in to let us know things are down, if we announce what we know in an easily consumable format.  Some explicit goals we reached for at New Relic that helped us get to "good enough":
+<ul><li>The point of this exercise is customer satisfaction - confidence, understanding, and even forgiveness when we can admit our wrongs.  Nonetheless, we need to be precise so Australian customers can easily tell that the outage in our US data center should not affect them.  Further, we have internal RCA's and SLA tracking to keep *ourselves* accountable.
+<li>The world is watching: competitors, investors, and prospects.  Be judicious in what you expose, particularly if there is dubious customer value in exposing it (eg: we've never received a ticket about the "welcome to our product" video being absent, so we probably don't need to announce a downtime on the status page that just affects our externally-hosted video).
+<li>Being prepared is key to success.  Pre-planning goes a long way - instead of figuring out messaging to use during a downtime, having some scripts for both the status-publisher and Support will allow us to weather storms a lot more smoothly.
+</ul>
+</body>
+</html>
+

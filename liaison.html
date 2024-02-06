@@ -1,0 +1,74 @@
+<html>
+<head><title>Support Liaisons to other teams within the companys</title>
+<style type="text/css">
+*{font-family: Verdana;}
+</style>
+</head>
+<body bgcolor=black text=#EAEAEA link=yellow vlink=orange>
+<h2>Overview</h2>
+
+Support has a business need to remain informed of decisions by, and in communication with, various teams within engineering, marketing, etc.  High-level duties include the following: 
+ 
+<h4>Ensure any inter-team pairings have notes taken and added to our internal documentation</h4>
+
+<h4>Ensure regular inter-team meetings are scheduled and notes are taken when relevant (i.e. stand-ups, and ticket reviews)</h4>
+
+<h4>You have primary responsibility for documentation (both public and internal) for your specialties</h4>
+
+<h4>Keep the info page about your team up to date in our internal docs (e.g.: preferred escalation methods)</h4>
+
+<h4>Advise on training for new support team members working in your area</h4>
+
+<h4>Track new features in your product areas before release, and prepare any documentation or team training necessary</h4>
+
+<h4>Identify ticket trends for the development teams to help define supportability needs</h4>
+
+<h4>If there is high ticket load, with approval of a manager, coordinate escalations sooner than normal</h4>
+
+These duties and some less obvious corollaries are fleshed out below.  This is a "perfect picture" towards which we can work;  any improvement is useful even if we don't have 100% coverage, which will take months or years to create.  In a perfect world, we'd also rotate liaison duties so that everyone could be exposed to every team.
+<p>
+Effectively, the point of this role is to communicate in both directions with other teams, and participate in planning and retrospectives with a customer mindset.  Additionally, we should be cross-communicating related efforts underway on other teams.  This turns working with support from a time sink into a value add for these other teams, for instance when we can point out that several teams are working on related projects and could benefit from working together.
+
+<h2>Duties</h2>
+<h3>Communications</h3>
+
+<ul>
+<li>communications lead around that team.  This comes in at least two flavors:
+<ul><li><b>inter-team</b>: Have we in support checked out a beta and found it lacking?  Will the entire team be offsite for a week?  These are things we must proactively communicate to/from each team, and such communication should be data-backed (pre-researched by us) where possible.
+<li><b>intra-team</b>: Are there new products coming down the pipeline that customers might have trouble with?  Is the other team interested in customer sentiment?  The liaison's job is to make sure support is informed of these changes, or do the research for the interested engineering team.</ul>
+<li>communicator of "customer point of view" for changes and new product additions to other team.  This is frequently bubbled up during demos or sprint planning.  "You're not fixing any bugs for a month?  I better mention that to my manager and brace my team for those interactions," or "We know that lots of customers use that feature that you are considering removing!"
+</ul>
+
+<h3>Documentation</h3>
+
+<ul>
+<li>    Maintainer of support's internal docs on the other team's products.  This can manifest in many ways, from keeping a list of current known issues to helping construct deep-dive training to maintaining scripted responses about their product(s).
+<ul><li>        A diagram of systems they are responsible for (where applicable).  This is going to become more and more important as a team's product is extracted into pieces (aka services), of which you need to be our resident expert on each - but you'll need to present the unified view to the team.
+<li>        Toubleshooting docs about their systems.  This might include relevant scripted responses, links to dashboards that you or they have built that maintain status history, best practices for customer configuration/use, etc.</ul>
+<li>    Consultant on other team's external docs.  "We wrote this user-facing documentation which says everything we want to say:  This software is perfect!".  Be the customer voice, e.g. "Customers typically don't understand the difference between metric and non-metric data, perhaps we could specify this in more vendor-neutral terms?"
+</ul>
+
+<h3>Work Sharing</h3>
+
+<ul><li>
+    <b>ticket pairing</b>  You are the primary escalation point for other Support team members who interface with the non-support team you work with.  This includes pairing with your own team members on best practices, bringing your knowledge of known bugs, behaviors, and cross-system interactions to the table to resolve many "hard" issues yourself.  On occasion, when deep research for a ticket will be required of engineering, you should offer to sit with the engineer to consult on the case (and learn from watching their debug process and hearing them talk through their code) - and then you can answer the customer directly about how <i>"We looked into this and found..."</i>.  You're also the support subject matter expert to that team - you can report that <i>"...only 3 customers reported noticing the alerting system downtime yesterday, so it wasn't as big a deal as you think it was"</i> to the development team's standup meeting/outage retrospective.
+
+<li>    <b>ticket queue observation</b>  Engineering is intended to own and answer tickets assigned to them.  However, we all lose when a ticket is dropped, and we are the "personal" backup when something falls through the cracks, or the escalation point (to our management, who can escalate to their management) if you see consistent queue or ticket mishandling.  In return, you should be monitoring for poor escalations FROM our team and escalating those concerns to the TSE(s) involved, or their manager if there are repeat offenses.
+</ul>
+
+<h3>General Collaboration</h3>
+
+<ul><li>
+    <b>understanding of other team processes</b> (eg:  sprint timing, external resources used for things like UX design).  This likely includes going to standups with the team, participating in sprint planning, watching demos (which you can reproduce to the support team as seems relevant), and going to retrospectives for outages in that team's components.  This way when our management asks you to <i>"let the team know about situation Y"</i> you know whether it's appropriate to bring up at standup, create a meeting with the key players (whom you can identify) or just drop an email about.  You can also proxy support's requests for <i>"how soon will X happen?"</i> since you're privy to their sprint board and delivery velocity.  <i>"That's planned at the end of this sprint, which historically means they'll likely get to it by the end of the next one, in 3 weeks."</i>
+<li>
+    <b>familiarity with other team members</b>  Liaison should be on a first-name basis with everyone on the other team including Manager and Product Manager.  When you walk over to their area, people will know who you are, and be familiar with your skill level so that when you cry "wolf", they'll know you know what you're talking about and take you at face value - whether you're talking to a developer, their team manager, or the Product Manager for that team.  You'll know who to go to about troubling design decisions, as well as who wrote the code you're working with so you know whom you can drop an email to asking for a troubleshooting session or demo.  (eg:  I don't ask someone who just joined the team to troubleshoot the old "v1" code that is in production - they have never touched it, since they are working solely on v2).
+</ul>
+
+<h3>Subject Matter Expertise</h3>
+
+<ul>
+<li>
+    <b>deepest understanding of other team's software stack</b>  This isn't just about "component A talks to component B".  It's also about <i>"that's a java app and it's pretty big, so scaling is a hardware nightmare and if we're noticing slowdowns we need to bring them up quickly!"</i> and <i>"they're using native charts now, but the next version will have a new charting library that will resolve this entire class of bugs...so it doesn't make sense to push hard on getting this one fixed."</i>  You might hear someone working with another team mention AWS and think <i>"how will this team's use of that technology play alongside my team's use of it?  I should mention this to the manager of this team!"</i>  It's also about <i>"I know they rely on our account DB, so when I saw the Ops team announce an account DB outage, I proactively went and checked out their performance during that time window so we could assess customer impact."</i>
+<li>
+    <b>awareness of existing/active bugs under their purview</b>  When another TSE comes to you to ask a question, you should know offhand if you've seen a bug in that area and be able to find it in that team's bug tracker.  This means that we get an answer for the customer immediately <i>"known bug with this plan for (not) fixing..."</i> and reduce duplicated effort - both by TSE's and by the developers on that team.  Further, you can speak to "seriousness" of bugs during sprint planning.  This will take some study time at first, but once you've seen all the bugs a few times, it becomes more automatic, even with bugs you haven't seen before.  <i>"I know that's a regression - engineer X fixed it 6 months ago for us!"</i>
+</ul>

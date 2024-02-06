@@ -1,0 +1,83 @@
+<html>
+<head><title>Ticket solving best practices</title>
+<style type="text/css">
+*{font-family: Verdana;}
+</style>
+</head>
+<body bgcolor=black text=#EAEAEA link=yellow vlink=orange>
+A lot of what we do is hard to codify, and much of it is based on personal style.  Nonetheless, here's an attempt to document some best practices. Sometimes these work well together, other times Socratic teaching is going to be a better answer for a frequent correspondent than <i>"here is how to X: ..."</i>
+<p>
+We've hired smart people (yeah, you!), so take some initiative and use your best judgment while you apply these.  Don't hesitate to ask your teammates for help - we like to help or we wouldn't be doing this work!  And, teaching you helps us out tomorrow - please remind us of this when we seem to be too busy to do a good job teaching!
+<p>
+<h2>Ticket practices</h2>
+
+<h4>Starting out: New Tickets, or ones that are new to you</h4>
+<ol>
+<li><b>Read the subject and the whole ticket.</b> It's easy to fail to read a subject that has vital information in it, or read only the first and last paragraph and miss out on a key message (Example: <i>"I'm trying to pay you more money but my account will lapse tomorrow"</i>) buried in the middle of a long question.
+<li><b>Summarize your findings</b> for a long ticket in a private comment before or after you answer to the customer.  This will help the next person who has to reply to a 3-month long saga.
+<li><b>Check the ticket's category.</b>  This could either give you a hint in case the question is otherwise vague, or else give you the opportunity to add that context & make sure it's properly categorized.  Setting the correct category will help give the next reader, or someone from another team who is helping us work tickets, that important context.  Example: "javascript troubles" could apply to any of our agents, our core app, or even our partner integration.
+<li><b>Is the problem well-known?</b>  Now's the time to cut and paste a stock answer in if you have one, and also a chance to realize that we have a FAQ in progress that should be added to our online documentation.
+<li><b>Is the problem completely undefined?</b>  Can we politely request more information from the customer and make sure that we request enough that we've not only got the problem defined, but also gotten them to include the info we would have asked for if we understood the initial question?  Example:
+<ul><li><i>"It doesn't work."</i>
+<li><i>"After looking at your account, I see that you don't have an application reporting.  Are you attempting to get an agent installed, and if so, which language agent and what installation steps have you followed, and what were the results including error messages?"</i></ul>
+<li>When analyzing the symptoms, it's important to <b>identify what the customer is trying to accomplish</b> so that time is not wasted on attempting to solve a symptom instead of a problem.
+</ol>
+<h4>Deep dive - The problem is well specified and is not trivial, an obvious known bug or feature request</h4>
+<ol>
+<li>If there's a clear path, eg: <i>"I want to report custom metrics about X for Y purpose"</i>, verify that their request seems possible and then start guiding them to a solution.  If you aren't convinced it's possible, ask around amongst your teammates or the domain experts in development.
+<li>Make sure you're investigating the correct problem.
+<li>Don't hesitate to report a bug the customer hasn't noticed if you notice it-especially if your answer is going to take them to a situation where they are likely to!
+<li>Check their account to make sure that subscription issues aren't to blame.  We have a lot more insight into account status and history than our customers.
+<li>Check our view of their environment &amp; settings to make sure that nothing jumps out at you as problematic. (Examples:  unsupported OS/library)
+<li>If the situation doesn't make sense to you and a teammate, sometimes all you can do is shake the tree and see if anything falls out.  Example: <i>"I see that your listed config on your dashboard doesn't seem to match what was in that config file you sent.  Could you also send me the application logs 'debug' log level so I can investigate more deeply?"</i>  This gives you a chance to notice that the appname in the logs doesn't match the config file they sent!
+</ol>
+<h4>Merging a Ticket</h4>
+When merging a ticket, be aware that the merged-from ticket is marked as closed and the customer will know this.  In light of this, the following will lead to less customer irritation, from experience. During merge, you can set a message for each ticket and make it private or public. Please:
+<ol>
+<li>Leave a public message in the new (duplicate) ticket saying that <i>"Since we are already discussing this in another ticket [give link to other ticket like], I will merge this ticket into that ticket so we can continue the conversation in just one location."</i>
+<li>If the "old" (existing) ticket has gone awhile without reply (or customer is complaining about perceived sloth), also apologize for our slowness in replying in that ticket, and say we are working on tickets in order and set expectations for a reply (eg: <i>"You're near the top of the list of tickets to answer so we will get to you soon"</i> or <i>"We will get to your ticket in the order in which we received it - but as fast as possible."</i>)
+</ol>
+<h4>Finishing Up</h4>
+<ul>
+<li>I try to end with an indication that we care.  Examples:
+<ul><li><i>"We appreciate your feedback and it will inform our behavior going forward."</i>
+<li><i>"Thanks for the bug report-we really love it when folks help us improve our software."</i>
+<li>"<i>I'm really sorry that wasn't the answer you were hoping for.  I'd be happy to file a feature request for you?"</i>
+</ul>
+<li>Express willingness to help with follow-on questions if any, and indicate that you think we're done here without brushing the customer off.  Example: <i>"Now that we have your metrics reporting correctly, let us know if you have any questions about how to interpret the graphs in your dashboard.  I'll mark this ticket as resolved, but you can reply within the next week to reopen it and continue the conversation."</i>
+</ul>
+
+<h4>General practices</h4>
+
+<ul>
+<li>We're dealing with smart people.  Don't dumb down your answer; sometimes a little bit of extra explanation: <i>"Our alerts have a 4 minute delay before opening"</i> is enough to let the customer realize the answer to the question they're actually interested in answering but haven't articulated well.  Further, once you've been transparent, it's a lot easier for someone to accept that We Just Don't Do That: it doesn't fit in our fairly consistent design philosophy.
+<li>Clearly, we're aiming for customer satisfaction - and preferably customer joy.  We're pretty fortunate in that our software is AWESOME but we need to be equally awesome in our interaction with customers.  Here's some tips:
+<ul><li>Try to keep blame out of your message.  Example: <i>"It appears this isn't set up right"</i> vs <i>"It appears you set this up wrong"</i>
+<li>Don't make excuses in your comments.  When we have a large backlog, it's tempting to apologize (which is OK) and then say something like <i>"We're ramping up very fast and so it's taking a while to respond...."</i>.  While it might be true, it doesn't give customers the best impression. Apologize if you think it's appropriate but then focus on being helpful.
+<li>Try to reduce the number of round trips this ticket will need.  Ask for as much debugging information as can be easily had in one go-verbose logs AND config file.  Anticipate follow-on questions.  Example: <i>"Once you have custom metrics reporting, you'll probably want to graph them in a custom dashboard.  Check out these docs..."</i>
+<li>Congratulate customers on their small victories to encourage them to stay engaged and working towards the goal.
+<li>If you have positive personal experience with a customer's product (example: Zendesk, PagerDuty, etc), don't hesitate to call it out.</ul>
+<li>Based on the below factors, we can afford to give more or less time to tickets.  So, use your common sense and some calculation to decide whether you should give a person 3 answers based on 3 guesses as to what she appears to be asking versus asking her to elaborate on her goals before spending substantial time on investigation or crafting a solution.
+<ol>
+<li><b>ticket priority</b> (for instance: highest value customer always gets a thoughtful answer intended to solve their problem if possible, even if that's 3 different answers that take 10 minutes apiece to write out; free customers probably don't warrant a deep dive into workarounds for features not in our system if you can't find one to cut and paste.)
+<li><b>ticket volume</b> Only ticket in the queue?  Wax poetic!  100 tickets awaiting response? Try: <i>"Based on my initial research, I'll need some more information from you:  logs, config file, etc"</i>
+<li><b>your familiarity with subject matter</b> This is a fine point with 3 competing axes:
+<ul><li>On the one hand we want to learn deeply about all the parts of our system so that any of us can one day be wired directly into the internet and serve as product knowledge base while we sleep... (OK, so that you can answer almost anything a customer you're on a call with asks, or know how to respond to curve balls during a tradeshow demonstration).  And of course, you learn by trying and researching, not by punting.
+<li>On the other hand, there will always be more of them than there are of us, and sometimes, you can learn to fish a lot faster from a colleague than by casting about on your own.
+<li>On the third hand, the knowledge that you seek may not be within our team, and we're going to need to formulate a plan for knowledge transfer to get the information we need into our collective mind.  The customer probably shouldn't have to wait for us to convene a council and go all the way into Mordor with the One Ring when Developer X can just answer his question.</ul>
+</ol></ul>
+<h4>New Support Engineer practices</h4>
+As long as we keep hiring, we'll put new hires on the lower priority customer tickets, to learn.  
+<p>
+It's helpful to give "bulk" guidance when there are learners working that part of the queue, so here's my process for a Senior Support Engineer to drop 1-minute troubleshooting/solution suggestions into those tickets.  Don't hesitate to say something leading: <i>"do investigation X and Y and then ask for someone's advice on the results"</i> or <i>"search for another ticket with the same keywords, it's a FAQ"</i> or <i>"go read the doc on X, it will explain the answer so you can explain to customer while you link them to the doc"</i>.  These are not intended to be real answers, just "a trail of breadcrumbs" to help new folks set out in the right direction while investigating.
+<p>
+Also: don't do much clicking-just read request and suggest relevant docs and troubleshooting paths:
+<ul><li><i>"sounds like his agent isn't installed right, find boilerplate for installation verification of X"</i>
+<li><i>"he has two accounts, one through a partner and one not, and won't be able to switch between them in our UI"</i>
+<li><i>"that email is sent by marketing so you should ask marketing-team@ to take him off the list and update the ticket to say you did so."</i>
+<li><i>"sounds like a bug.  see if you can reproduce and find someone to be your sidekick in opening a bug in our bug tracking system."</i>
+<li>If something is a new feature request, call that out and if relevant drop a sentence suggesting details to gather from customer.
+</ul>
+<p>
+
+It is also helpful to provide this explicit advice to new engineers following your breadcrumbs:  If something doesn't make sense, ask after you spend a few minutes trying to figure it out.  These aren't intended to be day-long odysseys, they're intended to get you to a response in under an hour-and this may not necessarily be a complete solution.

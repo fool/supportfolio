@@ -1,0 +1,42 @@
+<html>
+<head>
+<style type="text/css">
+*{font-family: Verdana;}
+</style>
+</head>
+<body bgcolor=black text=#EAEAEA link=yellow vlink=orange>
+Here I catalogue some of my better answers to customers, visible thanks to two public community forums I've participated in (where the Support team steps in to answer questions that benefit from an expert's touch.)
+<p>
+At <a href=https://www.netlify.com>Netlify</a>, I've written a substantial percentage of our seed content and responded to around 1/4th of our customers' posts as of August 2019.  <a href=https://community.netlify.com/u/fool/notifications/likes-received>Here's a list of posts that were appreciated by customers and colleagues.</a>
+<hr>
+
+From my days at <a href=https://www.newrelic.com>New Relic</a>, I've collected a baker's dozen of my favorite responses below, in no particular order:
+<ol>
+<li><a href=https://discuss.newrelic.com/t/custom-parameter-not-working/12331/8>Guess we'll need a workaround</a>
+<p>
+<li><a href=https://discuss.newrelic.com/t/range-of-required-outbound-destinations-for-agents/14644/2>Reality, possibility, and network security</a>
+<p>
+<li><a href=https://discuss.newrelic.com/t/what-does-request-per-minute-mean/15116/2>A leading answer to a vague question</a>
+<p>
+<li><a href=https://discuss.newrelic.com/t/correlating-multiple-language-platform-api/15213/2>I'd like to monitor the entire world</a>
+<p>
+<li><a href=https://discuss.newrelic.com/t/chart-a-particular-internal-api-call-across-all-transactions-on-a-dashboard/15615/2>A little java can make your datastore usage more obvious</a>
+<p>
+<li><a href=https://discuss.newrelic.com/t/is-there-a-way-to-see-the-sql-logs-that-get-run-on-a-site/15640/2>But can you make it go <i>slower</i>?</a>
+<p>
+<li><a href=https://discuss.newrelic.com/t/webhook-weird-problem-with-https-end-point/5414/4>Actually, you can get there from here</a>
+<p>
+<li><a href=https://discuss.newrelic.com/t/can-you-explain-what-these-functions-and-what-will-pinger-do-in-the-back/4460/3>Howbout if I talk real slowly?</a>
+<p>
+<li><a href=https://discuss.newrelic.com/t/graph-of-good-responses-vs-bad/5471/2>We can make it black and white if that's what your boss wants...</a>
+<p>
+<li><a href=https://discuss.newrelic.com/t/how-to-report-yes-no-boolean-values-via-a-custom-plugin/4990/6>Unfortunately, it doesn't work quite like you'd expect...</a>
+<p>
+<li><a href=https://discuss.newrelic.com/t/setting-up-newrelic-f5-plugin-on-centos-host/11059/2>In which I do a convincing impression of 'sysadmin'</a>
+<p>
+<li><a href=https://discuss.newrelic.com/t/bug-in-chart-display/11270/2>A spoonful of humor helps the bug go down</a>
+<p>
+<li><a href=https://discuss.newrelic.com/t/alert-mails-from-apm-plugin-stab/11900/2>No. But maybe they can help you help yourself?</a>
+</ol>
+</body>
+</html>

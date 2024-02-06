@@ -1,0 +1,100 @@
+<html>
+<head>
+<title>The Art of Customer Engagement and Retention: Premium Support for Freemium Software</title>
+</head>
+<body bgcolor=black text=#EAEAEA link=yellow vlink=orange>
+<h1>The Art of Customer Engagement and Retention: Premium Support for Freemium Software</h1>
+<ol>
+<li>hi, my name is chris mccraw, or "fool", if given my druthers.  I've been a unix system administrator for my entire post-teenage career until this year; for those counting that's about half my life.  Now, I work as a senior customer support engineer for New Relic - a company whose philosophy is very support-focused. It's got me thinking about tech support differently than I used to--I've always loved helping people, but I've also always been biased in favor of people who were smart enough to help themselves. 
+<p>
+But tech support is often treated as a joke - if you've done support, you've probably made fun of some of your users....
+<p>
+<li>...and some of them might deserve it.  While I'm certainly guilty of this myself,  lack of respect totally gets in the way of effective communication - which is key in providing great support. A better way to look at it might be that some people just aren't technical and don't want to be, and they aren't necessarily dumb, and they deserve the same amount of respect as any other customer, since their money, happiness, and loyalty are just as valuable as that of any other person.  Think about your the experience your software provides--sometimes it clicks with someone and they get it and go on to do great things with it without bothering you.  Sometimes it sucks, and sometimes it's even your fault.  So: be prepared to be humble, honest, forgiving, and put some effort in, and you can weather almost any problem.  Turns out, people like it when you're good to them more than they hate the problems in your software...as long as you have good backups, anyway.
+<p>
+So, here's the easiest thing to take away from my talk, and the easiest thing to apply to whatever system or systems you already have, and by far the least structured suggestion you'll hear from me today too:
+<p>
+<li>How would you want to be treated?  I already mentioned respect--that's a big one.  Assume your customers are brilliant, wonderful people, and treat them like it.  They may do their best to disabuse you of this notion, but at least enter into it, even to the most poorly-worded, detail free request:  assume respect-worthiness until definitively disproven.  This doesn't necessarily mean spending more time, it just means treating folks like you care, and much like smiling while you talk on the phone, folks can hear your demeanor based on your words, even when they're just "have you tried turning it off and back on again?"
+<p>
+As technologists, I suspect that you have suffered a little for your art.  Suffered through poorly designed API's, services that are not reliable, documentation that was clearly written in another language, and worse.  So maybe you can put yourself back in that place when people write in for help using your software.  Of course your software isn't terrible, but these folks wouldn't be writing in if it were perfect.  Practice a little empathy--"Yeah, friend, I've been there too.  Let me guide you out of the woods."
+<p>
+And when someone just doesn't get it, missing something glaringly obvious, or asking for this feature that just doesn't make sense...remember, they're frustrated and you may not be able to solve their frustration, but you *can* take the edge off..
+<p>
+Think about when you're at your best--caring, giving, attentive, making an effort to leave a good impression.  For me, that's on a first date.  So I try to treat the folks I'm helping like I want them to come on a second date with me...
+<p>
+<li>The company I work at doesn't do all of the things I'll talk about in this presentation - just most of them. It's impossible to meld all of them at one organization, in fact (but our community regularly achieves the "impossible", right?). 
+<p>
+However, they have all been proven in the corporate marketplace.   Maybe you can only add one to the support experience you provide.  But I'd like to think that even that one will make your customers happier, and I believe that's what makes customers into evangelists, and buyers into repeat buyers, and skeptics into customers.
+<p>
+examples of great and poor support -
+<ul>
+     <li><a href=http://www.zappos.com>zappos</a>: "yes, we'll help you order a pizza"
+     <li><a href=http://www.amazon.com>amazon</a>: "sure, you can have a third replacement kindle, in europe, shipped in one day"
+     <li><a href=http://apple.com>apple</a>: "we have a bevy of geniuses waiting to help in person!"
+</ul>
+<p>
+vs
+<p>
+<ul><li><a href=http://sprint.com>sprint</a>: "no, you cannot speak with someone more technical.  please hold for a half hour."
+<li><a href=http://www.aol.com>aol</a>: "you didn't really want to close your account when you said you did, so we'll just keep charging you".
+<li><a href=http://www.att.com>at&t</a>: "you're tied to us for your iphone so we have no interest in upgrading our network even though most of your calls get dropped."
+</ul>
+<p>
+[query: what is your company like?]
+<li>Supportability is our mantra at New Relic, and it is a philosophy that any organization can adopt, and achieve in different ways.  Having a product that you can support easily makes supporting that product easier.  This seems like a tautology but if you start out with something as complex as photoshop, you need killer docs out of the gate;  however if you start out with something like Skitch or MS Paint, it's possible to provide killer support with minimal effort, and grow in ways that are sustainable to support no matter what your organization's size.
+<p>
+<ul>
+<li>37signals (now <a href=http://basecamp.com>basecamp</a>) believes in making things simple enough to not need a knowledge base or even support crew. Much like the foundation of the unix toolbox, their sites do one thing and do it so well and intuitively that docs are for the most part superfluous.  Turns out that spending that extra design effort has saved them a lot of money in not having to have much of a tech support crew.
+<li>great documentation--we've all read engaging, well-written docs.  One of my favorite examples is the Perl Camel book (Programming Perl), but I've also read great FAQs online, and love or hate the IKEA way, their docs are truly universal and completely intuitive, *even if you can't read*
+
+<li>make your support organization easy to interact with.  At New Relic, we use <a href=http://zendesk.com>zendesk</a> as our helpdesk ticketing software and it's not trivial to use well and we occasionally screw up and lose tickets as we customize it more.  But what if twitter or facebook were your ticketing system?  You can be proactive about announcing bugs/outages/releases without being spammy since everyone who reads your posts has already opted in;  folks know how to find you on those services;  and they have the benefit of being public-facing so that people can see how responsive you are - and maybe even find the answer to their question that you've already given another customer.  What if you hang out on IRC already and just publish that contact info, so that fellow who's struggling with your software at 10pm finds someone to help him?  That guy will be a customer for life...
+
+<li>Wouldn't it be great if someone else did your support for you?  If you're not Linus Torvalds or Canonical (creators & maintainers of Ubuntu linux), you probably don't (yet) have a huge community that wants to help you support your product.  That doesn't mean you can't set up customer forums, or at least be responsive to people asking about your product at stackoverflow or some other stackexchange site - for those who aren't familiar (what rock have you been under?) they are crowdsourced Q&A sites which are free to use and really work.  And encourage those proactive users!  Let them fix code in the open source components of your project.  Let them submit new knowledge base articles and fix the broken ones.
+
+<li>Engage the engineers in support duties.  Not all the time, clearly, since you won't get any feature improvement if engineers are always answering email...but the 3rd time an engineer answers the same question, hopefully he'll become aware of the value of fixing the issue that leads to the question and thus you'll end up with an aspect of customer-driven development that will serve your organization well over its entire lifetime.
+<li>Good communication between support team and developers is essential.  If the company is just one person, and that person is you, this one is easy.  But as soon as you enlist that business partner who maybe enjoys talking with customers more, or just has more cycles available, it's easy to start failing.  it won't be much at first--a promise of a beta on a timeline that was blown a week ago but you haven't broken the news to your partner yet, or a feature that you decided not to implement when you realized how hard it would be that leaves a gap in his demo--but then you're spending energy cleaning up and trying to retain goodwill.  not too hard to do, but wouldn't you rather be known for your awesome product than your sincere apologies?  Once you have a support team that is separate from the developers, this becomes even more important....
+</ul>
+<li>Growing a Culture
+<p>
+This one is a little easier to do when you start small but with customer support in mind.  However, it's worth the effort to do at any stage if you haven't started there--it has a lot of aspects that help your company as much as your customers.
+<ul>
+<li>coexist.  Spend some time with your co-workers!  Not working, silly, that's a given.  but make time to be social, and let the kind of natural knowledge transfer that happens over lunch or a beer happen.  It's a lot more appealing to pitch in and help a guy out when you know he was up latet with a sick kid just like you, or that he organized an all-night bike ride this weekend and is still recovering.  We do group lunches at New Relic--everyone at the office is someone I'd consider a friend and thus someone I'm not too shy to bother with questions about their part of the product, or bounce feature requests off of.
+
+<li>have fun.  This goes from enjoying your work to projecting an external image of the company.  Maybe this is a hard thing to do if you are stuck selling enterprise software at $1M a pop--those folks seem to want suits and serious faces.  But if we're talking about a startup, maybe a free or freemium product...have fun!  have fun writing it, have fun supporting it, and while it's easy to overuse emoticons. keeping things lighthearted when responding to customers means you both get to have fun.  And hey, you might enjoy your work more too =)
+
+<li>be a team.  Keep the company in mind when you interact with people.  Not "I am a mouthpiece for my company" so much as "Is my mouth writing checks our engineering team can't cash?" and "how can I help the company solve this systemic problem that people have with our product?"  If you've already engaged the engineering team in some social time, that's probably not the time to bring up that version 3 could probably use a better UI, but if the topic comes up, let folks know how you feel and offer to help design something better, or at least give feedback on new designs.  this one is hard to encourage from the bottom up, but somewhere in your organization is a boss who is the boss of both the development team and the support crew, and it is in her interest to see you guys working together, so maybe you can get some help from the top down.
+
+<li>Encourage knowledge flow in both directions - up and down the ladder.  This means having lunch-and-learns where the developers introduce new features to the support crew, and having a CEO who listens to pain points and opinions from the folks in the trenches.  "hey, did you know that this promotion has doubled our support load of folks who actually have no other reason to use our product?"
+</ul>
+
+<li>Attitude
+
+<ul>
+<li>set expectations appropriately.  You're stuck with the cards you've been dealt--whether that's a one-person operation supporting thousands of users, or a 6-person team who handle 2 incidents a day.  Responsiveness is great, but you don't have to drop everything to support someone as long as they know what is happening.  At New Relic we have tied our CRM into our helpdesk so that different customers get different autoresponses to their support requests based on their business value - if you give us $500k/year, you do in fact get to jump the line and we'll answer your questions first, and if you're a free customer, we'll get back to you ASAP, but it may be a couple of days.  We don't say it that way of course, we say something more like "thanks for writing in, your request is important to us and you have an estimated wait time of X hours/days".  We are also very clear that we do support during business hours only--so when you write in on friday night, no matter how much money you give us, you'll be waiting til monday for a reply.  This isn't as ideal as having a 24h staffed support center, but it is a lot better than radio silence that you break 6 days later to say "oh, your problem seems to have cleared up somehow".
+
+<li>have fun (redux).  If you can make it fun, your customers might think it's fun too, and enjoy interacting with you enough that they write back in with intelligent feature requests and bug reports on documentation or other areas that most people probably notice and *don't* tell you about.  We have a group of "power users" with whom we've cultivated a fun attitude and we love hearing from them--enough that we usually treat their tickets with the "you pay us gazillions of dollars" treatment, even though they are not even all paying customers.  But they're a joy to work with and they help us out (a couple answer questions on stack overflow for us on occasion).
+
+<li>be transparent.  it's a lot easier to tell a customer "we had downtime yesterday, it was problem X as we announced on our twitter status feed which you can follow too to stay up to the minute!" than "hmm, yeah, it does look like something went wrong.  Are you sure it's not on your end?"  New Relic has embraced this philosophy from day 1 and our customers love it and we almost never get angry emails after even unplanned downtimes.  We don't lie to customers, even to the extent of "no, our software doesn't do that and probably won't ever, though I am happy to log a feature request so that the management team that plans future releases can consider it".
+
+<li>celebrate your customers' successes.  when they succeed, and you help them, you're part of a larger team and much like the grammies, people like to talk about their partners in success.  at New Relic we take that both ways, and blow our customers' horns as much as they blow ours.  when the twitter traffic mentioning your company is all positive, people are a lot more interested in trying what you're selling.
+
+</ul>
+<li>bedside manner.
+
+<ul>
+<li>active listening.  It's an art and when it works it's beautiful.  It is just as important to listen well as to give good advice--then you'll give the right advice the first time. If you stop to hear what the customer is really asking, or think about where they're going with a question, you can give a better answer.  and better answers make people happy.
+
+<li>you're freemium, right?  give a little something away to people who you've let down to rebuild trust.  reward the people who are rockstars with something free.  and when someone asks for something easy "hey i'm a paying customer and i want this promo that new customers get", give it to them.  isn't that schwag an advertisement for your company anyway?
+
+<li>answering a question so fully that they don't have to ask a follow-up.  anticipating the result of the action you're explaning to a person.  giving extra detail of interest (not just the what, but the how and/or why).  These are ways to keep your support queue under control. 
+</ul>
+
+Think back to "how would you like to be treated?"  I don't know about you, but when I write, phone, or walk into someplace looking for help, the perceived quality of the help is as much about "did I get an answer the first time?" as "was the receptionist pretty, was the office friendly, and did I get a backrub?"  I wouldn't object to any of those things, but as someone trying to solve a problem, function is way more important than form.  and the most frequent measure of our success as a "show the customers some love" philosophy at new relic is how often they rate our support experience as good.  And those ratings are frequently influenced by how quickly someone got the answer--not "did it take 2 days for them to answer me" but "how few back-and-forth interactions were there?"  Finally consider the common wisdom on context-switching and time management:  context switches are expensive!  to have to change repeatedly for a few seconds to volley back and forth on questions is not conducive to worker happiness or high productivity.  once-and-done sure is, and if you can pull it off with an extra minute the first time, it could save you 30 minutes of low productivity later.
+
+<li>know when to give up.  
+
+This is something we don't do particularly well at New Relic, and it has been a conscious management decision.  The way our VP (my boss's boss) puts it: 
+
+Our #1 most successful marketing plan is when people change jobs and take their love for us to a new company.  This philosophy was perhaps guided by the story relayed in Tony Hsieh's book about Zappos called _Delivering_Happiness_ in which the company struggled and perservered to help a small-time partner get up and running, and that guy later changed jobs to work at a huge company and landed one of the bigger deals based entirely on the support experience he'd received at the former job.  So we work with just about every customer to the point of exhaustion, even if they clearly aren't our target market (we land a lot of those via promotions like free books and t-shirts if you try our software).  While that story is a great one and that magic customer who will some day get you that million dollar deal might be lurking at the bottom of your support queue asking how to figure out what his password is, when you're a small organization, you may find it more sustainable to let some go.  Just don't do it for the wrong reasons, or with low style.
+
+Go back to that first-date analogy:  maybe your date is nervous at first and needs an hour to settle down and show his or her true colors.  But maybe an entire evening with them was painful and you couldn't imagine spending any more time with them.  So be a good person and tell your customer "I'm sorry we're having so much trouble here.  I'd be happy to refund your payment for our software" instead of just ignoring them.  "I'm sorry but I don't think our software is a good fit for you" is a lot nicer than radio silence...and perhaps you've noticed the (average) negative support experience leading to a lot more negative press than a positive experience...well, your potential customers are likely to notice as well.
+</body>
