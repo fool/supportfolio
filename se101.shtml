@@ -1,17 +1,15 @@
 <html>
 <head>
 <title>Support Engineering 101</title>
-<style type="text/css">
-*{font-family: Verdana;}
-</style>
+<link rel="stylesheet" href="supportfolio.css">
 </head>
 <body bgcolor=black text=#EAEAEA link=yellow vlink=orange>
 <h1>Support Driven Expo presentation:  Support Engineering 101</h1>
 <h2>Notes</h2>
-This workshop was presented at the <a href=https://www.supportdriven.com/expo/>Support Driven Expo 2018 in Portland, OR</a><p>
-<a href=https://paper.dropbox.com/doc/Support-Engineering-101-tNBUMsBMBFHrjv0DrtTpP>My speaker notes</a> are a better guide to the topic than my slides.
+<p><i>This workshop was presented at the <a href=https://www.supportdriven.com/expo/>Support Driven Expo 2018 in Portland, OR</a></i>
+<p> <a href=se101_notes.html>My speaker notes</a> are a better guide to the topic than my slides.
 <h2>Slides </h2>
-<a href=se101.key>Keynote Presentation</a>
+<p><a href=se101.key>Keynote Presentation</a>
 <h2>Links</h2>
 <ul>
 	<li><a href="https://medium.com/@fool/teching-up-9b39b6dc6e4e">a fool's Suggestions on How to Get Into Tech</a>
@@ -22,7 +20,7 @@ This workshop was presented at the <a href=https://www.supportdriven.com/expo/>S
 	<li><a href="http://troubleshooters.com/tuni.htm">good general purpose in-depth troubleshooting tutorial</a>
 </ul>
 <h2>Contact</h2>
-Questions, Comments, Kudos?  Want me to present this talk at your event or business?  Want to work with me?  <a href=mailto:gently@gmail.com>Get in touch!</a>.
+<p>Questions, Comments, Kudos?  Want me to present this talk at your event or business?  Want to work with me?  <a href=mailto:gently@gmail.com>Get in touch!</a>.
 <p>
 This document was last modified on <!--#echo var="LAST_MODIFIED" -->.
 </html>

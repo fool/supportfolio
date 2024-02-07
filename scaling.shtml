@@ -1,17 +1,16 @@
 <html>
 <head>
 <title>Scaling your customer experience</title>
-<style type="text/css">
-*{font-family: Verdana;}
-</style>
+<link rel="stylesheet" href="supportfolio.css">
 </head>
 <body bgcolor=black text=#EAEAEA link=yellow vlink=orange>
 <h1>Texas Scalability Summit: Scaling your customer experience</h1>
 <h2>Notes</h2>
-This workshop was presented at the <a href=http://texasscalabilitysummit.com/2019>2019 Texas Scalability Summit in Austin, TX</a><p>
-<a href=https://www.notion.so/netlify/Scaling-your-Customer-Experience-78acdcba45404558a18c6ef302b0557e>My speaker notes</a> are a better guide to the topic than my slides.
+<p>This invited talk was presented at the <a href=https://web.archive.org/web/20190612025414/http://texasscalabilitysummit.com/2019/sessions#mccraw>2019 Texas Scalability Summit in Austin, TX</a><p>
+<a href=https://www.notion.so/netlify/Scaling-your-Customer-Experience-78acdcba45404558a18c6ef302b0557e>My speaker notes</a> are a better guide to the topic than my slides. (<b>oops, internal-only link, seeking this content 2024!</b>)
+
 <h2>Slides </h2>
-<a href="scaling-your-customer-experience.key.zip">Keynote Presentation</a>
+<p><a href="scaling-your-customer-experience.key.zip">Keynote Presentation</a>
 <h2>Links</h2>
 <ul>
 	<li><a href="https://www.slideshare.net/SupportDriven/how-to-troubleshoot-anything-and-generally-be-more-awesome-at-life-matt-dale">Matt Dale's Troubleshooting Guide</a>
@@ -19,7 +18,7 @@ This workshop was presented at the <a href=http://texasscalabilitysummit.com/201
 	<li><a href="http://troubleshooters.com/tuni.htm">good general purpose in-depth troubleshooting tutorial</a>
 </ul>
 <h2>Contact</h2>
-Questions, Comments, Kudos?  Want me to present this talk at your event or business?  Want to work with me?  <a href=mailto:gently@gmail.com>Get in touch!</a>.
+<p>Questions, Comments, Kudos?  Want me to present this talk at your event or business?  Want to work with me?  <a href=mailto:gently@gmail.com>Get in touch!</a>.
 <p>
 This document was last modified on <!--#echo var="LAST_MODIFIED" -->.
 </html>

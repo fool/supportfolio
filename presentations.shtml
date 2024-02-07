@@ -1,40 +1,48 @@
 <html>
 <head><title>Presentations and Articles</title>
-<style type="text/css">
-*{font-family: Verdana;}
-</style>
+<link rel="stylesheet" href="supportfolio.css">
 </head>
 <body bgcolor=black text=#EAEAEA link=yellow vlink=orange>
-I enjoy talking and writing about problem solving, and have helped several friends bootstrap Support programs in their startups.  I've also run user groups and organized dozens of tech events from workshops to unconferences, including in an organizational role at conferences like <a href=http://barcampportland.org/>BarCamp Portland</a>, and <a href=http://opensourcebridge.org/>Open Source Bridge</a>.
+<h1>Presentations and Articles</h1>
+<p>I enjoy talking and writing about problem solving and customer service/technical support, and have helped several friends bootstrap Support programs in their startups.  
 <p>
-I've presented a few times in front of an audience lately about topics relevant to the kind of work I enjoy doing.  Most of these appearances are catalogued on <a href=http://lanyrd.com/profile/gently-7036/>Lanyrd.com</a>, and the notes and slide decks are linked below.
+<span class=callout-box>I consult and present on these topics and <a href=building_support.shtml>you can read more about those services here</a>.</span>
 <p>
-<h4><a href=https://youtu.be/G18rAHyiZqE>A webinar about Netlify</a>.
-<h4><a href=scaling.shtml>[2019] How to Scale your Customer Experience</a> (<a href=http://texasscalabilitysummit.com/2019/sessions#mccraw>An invited talk at the Texas Scalability Summit</a>).
-<h4>[2018] Support Engineering 101 (<a href=se101.shtml>overview and links to notes and slides</a>), a workshop delivered at <a href=http://supportdriven.com/expo>SDX 2018 (PDX)</a></h4>
-<h4>[2016] Growing Your Team - A Garden Philosophy (<a href=garden.html>presentation notes</a>), delivered at <a href=http://supconf.supportdriven.com>SupConf 2016 (SF)</a></h4>
-<h4>[2016] Working Beyond Support - Tactics for Increasing Effectiveness Across the Company (<a href=beyond.html>presentation notes</a>), delivered at <a href=http://elevatesummit.co>Elevate Summit 2016 (Austin)</a></h4>
-<h4>[2013] <a href=http://opensourcebridge.org/sessions/1004>Debugging without borders</a> delivered at <a href=http://opensourcebridge.org>Open Source Bridge</a> 2013</h4>
-<h4>[2012] <a href=http://opensourcebridge.org/sessions/777>The Art of Customer Engagement and Retention: Premium Support for Freemium Software</a> delivered at <a href=http://opensourcebridge.org>Open Source Bridge</a> 2012</h4>
-<h4>[2012] So you wanna be a booth babe...(<a href=boothbabe.key>slides</a> and <a href=boothbabe_notes.html>presentation notes</a>) delivered at New Relic's engineering all-hands meeting, 2012</h4>
+I've also run user groups and organized dozens of tech events from workshops to unconferences, including in an organizational role at conferences like <a href=https://web.archive.org/web/20131224124427/http://barcampportland.org/>BarCamp Portland</a>, and <a href=https://web.archive.org/web/20171114190913/http://www.opensourcebridge.org/>Open Source Bridge</a>.
+<hr>
+<p>
+I've presented a about topics relevant to the kind of work I enjoy doing.  You can find some notes, slide decks, and videos linked below.
+<ul>
+<li>[2023] <a href=https://youtu.be/G18rAHyiZqE>A webinar about Netlify</a>.
+<li><a href=scaling.shtml>[2019] How to Scale your Customer Experience</a> (<a href=http://texasscalabilitysummit.com/2019/sessions#mccraw>An invited talk at the Texas Scalability Summit</a>).
+<li>[2018] Support Engineering 101 (<a href=se101.shtml>overview and links to notes and slides</a>), a workshop delivered at <a href=http://supportdriven.com/expo>The Support Driven expo (PDX)</a><
+<li>[2016] Growing Your Team - A Garden Philosophy (<a href=garden.html>presentation notes</a>), delivered at <a href=https://web.archive.org/web/20160507042452/http://supconf.supportdriven.com/>SupConf 2016 (SF)</a><
+<li>[2016] Working Beyond Support - Tactics for Increasing Effectiveness Across the Company (<a href=beyond.html>presentation notes</a>), delivered at <a href=https://web.archive.org/web/20160315151831/http://elevatesummit.co/>Elevate Summit 2016 (Austin)</a>
+<li>[2013] <a href=https://web.archive.org/web/20140217150759/http://opensourcebridge.org/sessions/1004>Debugging without borders</a> delivered at <a href=https://web.archive.org/web/20171114190913/http://www.opensourcebridge.org/>Open Source Bridge</a> 2013,
+<li>[2012] <a href=https://web.archive.org/web/20170716215105/http://opensourcebridge.org/sessions/777>The Art of Customer Engagement and Retention: Premium Support for Freemium Software</a> delivered at <a href=https://web.archive.org/web/20171114190913/http://www.opensourcebridge.org/>Open Source Bridge</a> 2012
+<li>[2012] So you wanna be a booth babe...(<a href=boothbabe.key>slides</a> and <a href=boothbabe_notes.html>presentation notes</a>) delivered at New Relic's Engineering all-hands meeting, 2012
+</ul>
 
 <hr>
-I've been on the Support Driven podcast a couple times:
 
-<h4>[Sep 2018] <a href="https://supportdriven.com/2018/09/11/12-support-engineering">Support Engineering</a></h4>
-<h4>[Mar 2018] <a href="https://supportdriven.com/2018/03/19/2-hiring">Hiring</a></h4>
+<p>I've also been on the <a href=https://www.supportdriven.com/>Support Driven</a> podcast a couple times:
+
+<ul>
+<li>[Sep 2018] <a href="https://web.archive.org/web/20200125093924/https://supportdriven.com/2018/09/11/12-support-engineering/">Support Engineering</a></li>
+<li>[Mar 2018] <a href="https://web.archive.org/web/20200713230155/https://supportdriven.com/2018/03/19/2-hiring/">Hiring</a></li>
+<li>...and was part of an invited panel around Support team retention and hiring at one of the <a href=https://supportdriven.com>Support Driven</a> conferences back in 2017ish.
+</ul>
 
 <hr>
+<h3>Writings</h3>
+<ul>
+<li>I sometimes write up tech notes for internal consumption.  <a href=statuspage.html>Here's an example I wrote about effective use of status pages for your service.</a>
+<li>I read a lot of good books about how to help your customers succeed.  Check out <a href=badass.html>my take on Badass: Making Users Awesome</a>!
+<li>I wrote <a href=https://www.netlify.com/authors/chris-mccraw/>a few articles for Netlify's blog</a>
+<li>I wrote (and maintained) <a href=https://answers.netlify.com/search?q=@fool%20%22%5BSupport%20Guide%5D%22>a lot of seed content</a> for <a href=https://answers.netlify.com>Netlify's community</a>, launched in 2019.
+<li>I wrote some, and advised on many, of New Relic's public-facing documentation articles.  Here's the crunchiest one I wrote: <a href=https://web.archive.org/web/20190326172135/https://docs.newrelic.com/docs/apm/reports/service-level-agreements/api-examples-sla-reports>API examples for SLA reports</a>.
+<li>I occasionally <a href=https://web.archive.org/web/20130819140033/http://blog.newrelic.com/author/chris-mccraw/>wrote for New Relic's company blog on technical or social topics.</a>
+</ul>
 
-<h4>I wrote <a href=https://www.netlify.com/authors/chris-mccraw/>a few articles for Netlify's blog</a>.
-<h4>I wrote <a href=https://community.netlify.com/u/fool/activity/topics>a lot of seed content</a> for <a href=https://community.netlify.com>Netlify's community</a>, launched in 2019.
-I've written some, and advised on many, of New Relic's public-facing documentation articles.  Here's the crunchiest one I wrote: <a href=https://docs.newrelic.com/docs/apm/reports/service-level-agreements/api-examples-sla-reports>API examples for SLA reports</a>.
-<p>
-I occasionally <a href=http://blog.newrelic.com/author/chris-mccraw/>wrote for New Relic's company blog on technical or social themes.</a>
-<p>
-I sometimes write up tech notes for internal consumption.  <a href=statuspage.html>Here's an example I wrote about effective use of status pages for your service.</a>
-<p>
-
-<h2>
 </body>
 </html>

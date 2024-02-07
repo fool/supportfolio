@@ -27,6 +27,10 @@ ul {
   margin-left: 100px;
   margin-right: 40px;
 }
+ol {
+  margin-left: 100px;
+  margin-right: 40px;
+}
 span.callout-box {
   display: block;
   background-color: gray;
