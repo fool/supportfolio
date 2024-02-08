@@ -15,11 +15,11 @@ I've presented a about topics relevant to the kind of work I enjoy doing.  You c
 <ul>
 <li>[2023] <a href=https://youtu.be/G18rAHyiZqE>A webinar about Netlify</a>.
 <li><a href=scaling.shtml>[2019] How to Scale your Customer Experience</a> (<a href=http://texasscalabilitysummit.com/2019/sessions#mccraw>An invited talk at the Texas Scalability Summit</a>).
-<li>[2018] Support Engineering 101 (<a href=se101.shtml>overview and links to notes and slides</a>), a workshop delivered at <a href=http://supportdriven.com/expo>The Support Driven expo (PDX)</a><
-<li>[2016] Growing Your Team - A Garden Philosophy (<a href=garden.html>presentation notes</a>), delivered at <a href=https://web.archive.org/web/20160507042452/http://supconf.supportdriven.com/>SupConf 2016 (SF)</a><
+<li>[2018] Support Engineering 101 (<a href=se101.shtml>overview and links to notes and slides</a>), a workshop delivered at <a href=http://supportdriven.com/expo>The Support Driven expo (PDX)</a>
+<li>[2016] Growing Your Team - A Garden Philosophy (<a href=garden.html>presentation notes</a>), delivered at <a href=https://web.archive.org/web/20160507042452/http://supconf.supportdriven.com/>SupConf 2016 (SF)</a>
 <li>[2016] Working Beyond Support - Tactics for Increasing Effectiveness Across the Company (<a href=beyond.html>presentation notes</a>), delivered at <a href=https://web.archive.org/web/20160315151831/http://elevatesummit.co/>Elevate Summit 2016 (Austin)</a>
-<li>[2013] <a href=https://web.archive.org/web/20140217150759/http://opensourcebridge.org/sessions/1004>Debugging without borders</a> delivered at <a href=https://web.archive.org/web/20171114190913/http://www.opensourcebridge.org/>Open Source Bridge</a> 2013,
-<li>[2012] <a href=https://web.archive.org/web/20170716215105/http://opensourcebridge.org/sessions/777>The Art of Customer Engagement and Retention: Premium Support for Freemium Software</a> delivered at <a href=https://web.archive.org/web/20171114190913/http://www.opensourcebridge.org/>Open Source Bridge</a> 2012
+<li>[2013] <a href=https://web.archive.org/web/20140217150759/http://opensourcebridge.org/sessions/1004>Debugging without borders</a> delivered at <a href=https://web.archive.org/web/20171114190913/http://www.opensourcebridge.org/>Open Source Bridge</a> 2013
+<li>[2012] <a href=https://web.archive.org/web/20170716215105/http://opensourcebridge.org/sessions/777>The Art of Customer Engagement and Retention: Premium Support for Freemium Software</a> delivered at <a href=https://web.archive.org/web/20171114190913/http://www.opensourcebridge.org/>Open Source Bridge</a> 2012. Here's <a href=freemium_premium.shtml>a link to the text of my talk</a>.
 <li>[2012] So you wanna be a booth babe...(<a href=boothbabe.key>slides</a> and <a href=boothbabe_notes.html>presentation notes</a>) delivered at New Relic's Engineering all-hands meeting, 2012
 </ul>
 
@@ -38,9 +38,10 @@ I've presented a about topics relevant to the kind of work I enjoy doing.  You c
 <ul>
 <li>I sometimes write up tech notes for internal consumption.  <a href=statuspage.html>Here's an example I wrote about effective use of status pages for your service.</a>
 <li>I read a lot of good books about how to help your customers succeed.  Check out <a href=badass.html>my take on Badass: Making Users Awesome</a>!
+<li>I like to help folks get hired;  here's <a href=https://fool.medium.com/teching-up-9b39b6dc6e4e>my somewhat nontraditional advice around breaking into tech</a>
+<li>I wrote some, and advised on many, of New Relic's public-facing documentation articles.  Here's the crunchiest one I wrote: <a href=https://web.archive.org/web/20190326172135/https://docs.newrelic.com/docs/apm/reports/service-level-agreements/api-examples-sla-reports>API examples for SLA reports</a>.
 <li>I wrote <a href=https://www.netlify.com/authors/chris-mccraw/>a few articles for Netlify's blog</a>
 <li>I wrote (and maintained) <a href=https://answers.netlify.com/search?q=@fool%20%22%5BSupport%20Guide%5D%22>a lot of seed content</a> for <a href=https://answers.netlify.com>Netlify's community</a>, launched in 2019.
-<li>I wrote some, and advised on many, of New Relic's public-facing documentation articles.  Here's the crunchiest one I wrote: <a href=https://web.archive.org/web/20190326172135/https://docs.newrelic.com/docs/apm/reports/service-level-agreements/api-examples-sla-reports>API examples for SLA reports</a>.
 <li>I occasionally <a href=https://web.archive.org/web/20130819140033/http://blog.newrelic.com/author/chris-mccraw/>wrote for New Relic's company blog on technical or social topics.</a>
 </ul>
 
