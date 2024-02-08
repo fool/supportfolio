@@ -35,3 +35,7 @@ span.callout-box {
   display: block;
   background-color: gray;
 }
+div#footer {
+  position: sticky;
+  bottom: 0;
+}

@@ -20,5 +20,8 @@
 <h2>Contact</h2>
 <p>Questions, Comments, Kudos?  Want me to present this talk at your event or business?  Want to work with me?  <a href=mailto:gently@gmail.com>Get in touch!</a>.
 <p>
-This document was last modified on <!--#echo var="LAST_MODIFIED" -->.
+<div class="footer">
+        <center><i><a href=/>Go back to the rest of my Supportfolio</a></i></center>
+</div>
+</body>
 </html>
